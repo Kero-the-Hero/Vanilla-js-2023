@@ -130,7 +130,11 @@ table {
 input:focus {
     outline: none;
 }
+input,
+button {
+    font-family: 'jalnan2';
+}
 a {
     color: inherit;
-    text-decoration: none;
+    /* text-decoration: none; */
 }

@@ -6,6 +6,10 @@
 @import 'components/main_middle.css';
 @import 'components/main_bottom.css';
 
+/* screens */
+@import 'screens/log-in.css';
+@import 'screens/birthday-check.css';
+
 /* font */
 @font-face {
     font-family: 'jalnan2';

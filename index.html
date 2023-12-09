@@ -15,7 +15,7 @@
             <div class="main__top__clock">11시 11분</div>
         </div>
         <div class="main__row main__middle">
-            <div class="main__middle__greeting">안녕하세요, Kero!</div>
+            <div class="main__middle__greeting"></div>
             <div class="main__middle__searchbar">검색어를 입력해 주세요.</div>
         </div>
         <div class="main__row main__bottom">
@@ -24,6 +24,24 @@
                 <li>코딩도 하고</li>
                 <li>과제도 하고</li>
             </ul>
+        </div>
+
+        <div id="log-in__screen">
+            <div class="log-in">
+                <form id="login-form" class="hidden">
+                    <input required maxlength="15" type="text" placeholder="이름이 어떻게 되시나요?" />
+                    <input type="submit" value="확인" />
+                </form>
+            </div>
+        </div>
+
+        <div id="birthday-check__screen">
+            <div class="birthday">
+                <form id="birthday" class="hidden">
+                    <input required maxlength="15" type="date" placeholder="생일이 어떻게 되시나요?" />
+                    <input type="submit" value="확인" />
+                </form>
+            </div>
         </div>
 
         <script src="js/background.js"></script>
