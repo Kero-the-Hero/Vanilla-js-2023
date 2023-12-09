@@ -3,16 +3,29 @@
     flex-direction: column;
     width: 100%;
     justify-content: flex-end;
+    color: rgb(255, 245, 219);
+    text-shadow: 2px 3px 20px rgba(0, 0, 0, 0.4), 0 0 1px rgba(0, 0, 0, 0.2), 0 0 1px rgba(0, 0, 0, 0.2);
 }
 
 .main__top__weather__astrology {
     display: flex;
-    width: 100%;
-    justify-content: space-evenly;
+    width: 70%;
+    justify-content: space-between;
     margin-bottom: 5%;
     font-size: 22px;
 }
 
 .main__top__clock {
     font-size: 10vh;
+}
+
+#weather {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+#weather > span {
+    margin-bottom: 7px;
 }

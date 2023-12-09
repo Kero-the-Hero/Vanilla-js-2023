@@ -9,39 +9,35 @@
     <body class="main">
         <div class="main__row main__top">
             <div class="main__top__weather__astrology">
-                <span class="weather">27℃ 맑음</span>
-                <span class="astrology">전갈자리</span>
+                <div id="weather">
+                    <span></span>
+                    <span></span>
+                </div>
+                <span class="astrology"></span>
             </div>
             <div class="main__top__clock">11시 11분</div>
         </div>
         <div class="main__row main__middle">
-            <div class="main__middle__greeting"></div>
-            <div class="main__middle__searchbar">검색어를 입력해 주세요.</div>
+            <div class="main__middle__greeting">
+                <div id="log-in__screen">
+                    <div class="log-in">
+                        <form id="login-form" class="hidden">
+                            <input required maxlength="15" type="text" placeholder="이름이 어떻게 되시나요?" />
+                            <input type="submit" value="확인" />
+                        </form>
+                        <h1 id="greeting" class="hidden"></h1>
+                    </div>
+                </div>
+            </div>
+            <div class="main__middle__funfact">검색어를 입력해 주세요.</div>
         </div>
         <div class="main__row main__bottom">
-            <div class="main__bottom__todo__ask">오늘 무엇을 해야 하나요?</div>
-            <ul class="main__bottom__todo__list">
-                <li>코딩도 하고</li>
-                <li>과제도 하고</li>
-            </ul>
-        </div>
-
-        <div id="log-in__screen">
-            <div class="log-in">
-                <form id="login-form" class="hidden">
-                    <input required maxlength="15" type="text" placeholder="이름이 어떻게 되시나요?" />
-                    <input type="submit" value="확인" />
+            <div class="main__bottom__todo__ask">
+                <form id="todo-form">
+                    <input type="text" placeholder="오늘 무엇을 해야 하나요?" required />
                 </form>
             </div>
-        </div>
-
-        <div id="birthday-check__screen">
-            <div class="birthday">
-                <form id="birthday" class="hidden">
-                    <input required maxlength="15" type="date" placeholder="생일이 어떻게 되시나요?" />
-                    <input type="submit" value="확인" />
-                </form>
-            </div>
+            <ul id="todo-list"></ul>
         </div>
 
         <script src="js/background.js"></script>

@@ -134,7 +134,24 @@ input,
 button {
     font-family: 'jalnan2';
 }
+
+input {
+    border-style: none;
+    background-color: transparent;
+}
+
 a {
     color: inherit;
     /* text-decoration: none; */
+}
+
+li {
+    text-align: center;
+    font-size: 28px;
+    color: rgb(255, 245, 219);
+    text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.4);
+}
+input[type='checkbox'] {
+    outline-style: none;
+    background-color: transparent;
 }

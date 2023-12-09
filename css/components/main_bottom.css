@@ -3,8 +3,56 @@
     flex-direction: column;
     width: 100%;
     justify-content: space-evenly;
+    color: rgb(255, 245, 219);
+    text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.4);
+    position: relative;
 }
 
 .main__bottom__todo__ask {
+    position: absolute;
+    top: 0;
     font-size: 32px;
+}
+
+form#todo-form > input::placeholder {
+    text-align: center;
+    font-size: 28px;
+    color: rgb(255, 245, 219);
+    text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.4);
+}
+form#todo-form > input:first-child {
+    height: 40px;
+    width: 400px;
+    font-size: 28px;
+    color: rgb(255, 245, 219);
+    text-align: center;
+    border-style: solid;
+    border-width: 3px;
+    border-color: transparent;
+    border-bottom-color: rgb(255, 245, 219);
+    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    word-break: break-all;
+}
+
+li {
+    display: flex;
+}
+li > div {
+    text-align: left;
+    margin-left: 10px;
+}
+
+input[type='checkbox'] {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    color: rgb(255, 245, 219);
+    border-radius: 10px;
 }
