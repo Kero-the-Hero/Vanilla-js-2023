@@ -1,0 +1,18 @@
+.main__top {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.main__top__weather__astrology {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+    font-size: 22px;
+}
+
+.main__top__clock {
+    font-size: 10vh;
+}

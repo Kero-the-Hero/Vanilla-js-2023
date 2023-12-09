@@ -1,0 +1,10 @@
+.main__bottom {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.main__bottom__todo__ask {
+    font-size: 32px;
+}

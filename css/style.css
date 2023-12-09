@@ -1,14 +1,15 @@
+@import 'reset.css';
+
+/* components */
+@import 'components/main_box.css';
+@import 'components/main_top.css';
+@import 'components/main_middle.css';
+@import 'components/main_bottom.css';
+
+/* font */
 @font-face {
     font-family: 'jalnan2';
     src: url('../src/font/Jalnan2TTF.ttf') format('truetype');
-}
-
-body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    display: flex;
-    font-family: 'jalnan2';
 }
 
 img {
@@ -16,4 +17,8 @@ img {
     z-index: -9999;
     width: 100%;
     height: 100%;
+}
+
+.hidden {
+    display: none;
 }
