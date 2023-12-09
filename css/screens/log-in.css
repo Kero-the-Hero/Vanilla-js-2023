@@ -14,20 +14,6 @@
     }
 } */
 
-#log-in__screen {
-    background: linear-gradient(#e66465, #9198e5);
-    position: absolute;
-    height: 100vh;
-    width: 100vw;
-    z-index: 10;
-    top: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    animation: hideLoginScreen 2s ease-in-out forwards;
-    animation-delay: 2s;
-}
-
 #login-form {
     display: flex;
     flex-direction: column;
